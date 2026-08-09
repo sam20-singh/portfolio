@@ -3,60 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Sam Jebasingh R - Java developer, AI enthusiast, and electronics engineering student.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="nn.css">
-    <title>Portfolio Website</title>
+    <title>Sam Jebasingh R | Portfolio</title>
 </head>
 <body>
     <nav>
         <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
-            Charlotte <span>Smith</span>
+            Sam <span>Jebasingh R</span>
         </div>
+
         <div class="nav-container">
             <div class="links">
-                <a href="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Home</a>
-                <a href="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">Skills</a>
-                <a href="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Introduction</a>
-                <a href="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Services</a>
-                <a href="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contact</a>
+                <a href="#home" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Home</a>
+                <a href="#about" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">About</a>
+                <a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Skills</a>
+                <a href="#projects" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Projects</a>
+                <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contact</a>
             </div>
         </div>
+
         <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+
         <div class="dropdown">
             <div class="links">
-                <a href="">Home</a>
-                <a href="">Skills</a>
-                <a href="">Introduction</a>
-                <a href="">Services</a>
-                <a href="">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
                 <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
-            </div>    
+            </div>
         </div>
     </nav>
-    <section>
-        <div class="main-container">
-            <div class="content">
-                <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">Hey I'm <span>Charlotte</span></h1>
-                <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800" class="typewriter">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
-                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quod quibusdam ratione illo consectetur atque non iusto aspernatur numquam.</p>
-                <div class="social-links">
-                    <i class="fa-brands fa-linkedin" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200"></i>
-                    <i class="fa-brands fa-github" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"></i>
-                    <i class="fa-brands fa-facebook" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"></i>
-                    <i class="fa-brands fa-twitter" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"></i>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="main-container">
+                <div class="content">
+                    <p class="eyebrow" data-aos="fade-right" data-aos-duration="1200">Hello, I'm</p>
+                    <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">Sam Jebasingh <span>R</span></h1>
+                    <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800" class="typewriter">I am a <span class="typewriter-text"></span><label for="">|</label></div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1000">
+                        Passionate about leveraging programming and artificial intelligence to build innovative solutions for real-world challenges.
+                        I enjoy turning ideas into practical products with a strong focus on problem-solving, continuous learning, and meaningful impact.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sam-jebasingh-r-051b86413" target="_blank" rel="noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sam20-singh" target="_blank" rel="noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:rsamjebasingh@gmail.com" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="tel:+919952017405" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+
+                    <div class="cta-row" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1700">
+                        <a class="primary-btn" href="SAM_RESUME (3).pdf" target="_blank" rel="noreferrer">Download CV</a>
+                        <a class="secondary-btn" href="#projects">View Projects</a>
+                    </div>
                 </div>
-                <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1700">Download CV</button>
+
+                <div class="profile-box" data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="profile-visual">
+                        <div class="badge badge-one">Java</div>
+                        <div class="badge badge-two">AI</div>
+                        <div class="badge badge-three">IoT</div>
+                        <div class="initials">SJ</div>
+                    </div>
+                </div>
             </div>
-            <div class="image" data-aos="zoom-in" data-aos-duration="2000">
-                <img src="main.jpg" alt="">
+        </section>
+
+        <section id="about" class="info-section">
+            <div class="section-heading" data-aos="fade-up">
+                <p>About Me</p>
+                <h2>Building ideas with technology</h2>
             </div>
-        </div>
-    </section>
+
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-right">
+                    <h3>Objective</h3>
+                    <p>
+                        Passionate about leveraging programming and artificial intelligence to develop innovative solutions for real-world challenges.
+                        Skilled in Java and hands-on project development, with a strong focus on continuous learning, problem-solving, and creating meaningful impact through technology.
+                    </p>
+                </div>
+
+                <div class="about-card" data-aos="fade-left">
+                    <h3>Quick Facts</h3>
+                    <ul>
+                        <li><strong>Location:</strong> Coimbatore, India</li>
+                        <li><strong>Education:</strong> B.E. Electronics & Communication Engineering</li>
+                        <li><strong>Focus:</strong> Java, AI, IoT, Web Development</li>
+                        <li><strong>Current Goal:</strong> Build practical, scalable tech solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="info-section alt-bg">
+            <div class="section-heading" data-aos="fade-up">
+                <p>Skills</p>
+                <h2>Technical and interpersonal strengths</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="zoom-in">
+                    <h3>Technical Skills</h3>
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>SQLite</span>
+                        <span>Raspberry Pi</span>
+                        <span>Digital Electronics</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                    <h3>Soft Skills</h3>
+                    <div class="tags">
+                        <span>Teamwork</span>
+                        <span>Communication</span>
+                        <span>Problem Solving</span>
+                        <span>Leadership</span>
+                        <span>Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="info-section">
+            <div class="section-heading" data-aos="fade-up">
+                <p>Projects</p>
+                <h2>Hands-on work and practical development</h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card" data-aos="fade-up">
+                    <span class="project-date">June 2026</span>
+                    <h3>AI Customer Support Analyzer</h3>
+                    <p>
+                        Developed a real-time support ticket analyzer using FastAPI and Groq's Llama 3.3 model to instantly evaluate customer sentiment, urgency, and churn risk.
+                    </p>
+                    <ul>
+                        <li>Built REST APIs and integrated SQLite database to process and track complaints</li>
+                        <li>Improved support analysis with quick, actionable insight generation</li>
+                    </ul>
+                    <div class="project-stack">
+                        <span>FastAPI</span>
+                        <span>Python</span>
+                        <span>Groq</span>
+                        <span>SQLite</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <span class="project-date">Jan 2026</span>
+                    <h3>Real-Time Light Pulse Frequency & Total Count Measurement</h3>
+                    <p>
+                        Built a Raspberry Pi-based system to detect and measure light pulse frequency using sensor hardware and Python-based signal processing.
+                    </p>
+                    <ul>
+                        <li>Calculated pulse frequency and maintained accurate real-time count</li>
+                        <li>Worked with Linux/Raspberry Pi OS and photodetector hardware</li>
+                    </ul>
+                    <div class="project-stack">
+                        <span>Python</span>
+                        <span>Raspberry Pi</span>
+                        <span>Linux</span>
+                        <span>Photodetector</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="info-section alt-bg">
+            <div class="section-heading" data-aos="fade-up">
+                <p>Experience</p>
+                <h2>Professional foundation</h2>
+            </div>
+
+            <div class="experience-card" data-aos="fade-up">
+                <div class="experience-header">
+                    <div>
+                        <h3>Intern</h3>
+                        <p>CLD Automation</p>
+                    </div>
+                    <span>Jan 2026 - Feb 2026</span>
+                </div>
+                <ul>
+                    <li>Developed foundational Java skills through hands-on application and project-based learning to build robust backend logic.</li>
+                    <li>Explored front-end essentials to design intuitive, user-centered digital experiences.</li>
+                    <li>Worked in real-time workflows and cross-functional collaboration to support successful project delivery.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <div class="section-heading" data-aos="fade-up">
+                <p>Achievements</p>
+                <h2>Recognition and academic contributions</h2>
+            </div>
+
+            <div class="achievement-grid">
+                <div class="achievement-card" data-aos="fade-up">
+                    <h3>Research Paper</h3>
+                    <p>Presented a paper on “Spectrum Allocation Challenges and Intelligent Management in 5G Networks” at Velammal Engineering College.</p>
+                    <span>Feb 2026</span>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Presentation</h3>
+                    <p>Delivered a presentation on “Drowsiness Detection Using OpenCV” at KPR College of Engineering.</p>
+                    <span>Oct 2026</span>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Certification</h3>
+                    <p>Fundamentals of Java — Infosys Springboard</p>
+                    <span>April 2025</span>
+                </div>
+
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Patent Published</h3>
+                    <p>“AI-Based Smart Risk Assessment for Resilient Emergency Alert Network” — Application No. 202641045858 A</p>
+                    <span>Indian Patent Office</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section alt-bg">
+            <div class="section-heading" data-aos="fade-up">
+                <p>Education</p>
+                <h2>Academic background</h2>
+            </div>
+
+            <div class="education-list" data-aos="fade-up">
+                <div class="education-item">
+                    <span class="year">2023 - Present</span>
+                    <div>
+                        <h3>VSB College of Engineering Technical Campus</h3>
+                        <p>B.E. in Electronics and Communication Engineering</p>
+                        <small>CGPA: 8.5</small>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <span class="year">2022 - 2023</span>
+                    <div>
+                        <h3>P.K.D. Matric Higher Secondary School</h3>
+                        <p>Higher Secondary Education</p>
+                        <small>Percentage: 77%</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <div class="section-heading" data-aos="fade-up">
+                <p>Extracurricular</p>
+                <h2>Leadership and participation</h2>
+            </div>
+
+            <div class="mini-list" data-aos="fade-up">
+                <div><strong>Event Coordinator</strong> — Futuronix cultural fest</div>
+                <div><strong>Contestant</strong> — Singing Competition</div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-heading" data-aos="fade-up">
+                <p>Contact</p>
+                <h2>Let’s connect</h2>
+            </div>
+
+            <div class="contact-grid" data-aos="fade-up">
+                <a href="mailto:rsamjebasingh@gmail.com"><i class="fa-solid fa-envelope"></i> rsamjebasingh@gmail.com</a>
+                <a href="https://github.com/sam20-singh" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> github.com/sam20-singh</a>
+                <a href="https://www.linkedin.com/in/sam-jebasingh-r-051b86413" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+                <a href="tel:+919952017405"><i class="fa-solid fa-phone"></i> +91-9952017405</a>
+                <a href="https://maps.google.com/?q=Coimbatore, India" target="_blank" rel="noreferrer"><i class="fa-solid fa-location-dot"></i> Coimbatore, India</a>
+            </div>
+        </section>
+    </main>
+
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({offset:0});
+      AOS.init({ offset: 0, duration: 1000 });
     </script>
 </body>
 </html>
